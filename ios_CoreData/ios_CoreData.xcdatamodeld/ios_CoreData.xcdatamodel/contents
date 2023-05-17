@@ -10,8 +10,9 @@
         <attribute name="cname" optional="YES" attributeType="String"/>
         <relationship name="own" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Car" inverseName="belongto" inverseEntity="Car"/>
     </entity>
+    <fetchRequest name="FetchRequest" entity="UserData" predicateString="cname BEGINSWITH &quot;J&quot;"/>
     <elements>
-        <element name="Car" positionX="-341.7896728515625" positionY="-238.1648254394531" width="128" height="73"/>
-        <element name="UserData" positionX="-599.0438232421875" positionY="-305.4751892089844" width="128" height="103"/>
+        <element name="Car" positionX="-341.7896728515625" positionY="-238.1648254394531" width="128" height="59"/>
+        <element name="UserData" positionX="-599.0438232421875" positionY="-305.4751892089844" width="128" height="89"/>
     </elements>
 </model>
